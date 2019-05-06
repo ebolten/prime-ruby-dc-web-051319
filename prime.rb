@@ -10,7 +10,18 @@ def prime?(num)
         break
       end
     end
+
+
+  elsif num < 0
+    for i in -2..num+1
+      if num % i == 0
+        return false
+        break
+      end
+    end
+
   end
+
 
   return true
 
