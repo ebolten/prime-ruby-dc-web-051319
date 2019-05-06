@@ -11,8 +11,6 @@ def prime?(num)
     end
   end
 
-  if count == 0
-    return true
-  end
+  true
 
 end
