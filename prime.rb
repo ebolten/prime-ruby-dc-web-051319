@@ -1,6 +1,6 @@
 # Add  code here!
 
-def prime(num)
+def prime?(num)
   nums = [1,2,3,4,5,6,7,8,9]
   count = 0
   for i in 0..nums.length
