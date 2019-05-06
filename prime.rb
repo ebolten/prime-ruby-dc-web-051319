@@ -4,7 +4,7 @@ def prime?(num)
   nums = [1,2,3,4,5,6,7,8,9]
 
   if num >= 0
-    for i in 2..num-1
+    for i in 2..num
       if num % i == 0
         return false
         break
@@ -19,7 +19,7 @@ def prime?(num)
       end
     end
 
-  
+
   end
   return true
 end
