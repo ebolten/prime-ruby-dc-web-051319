@@ -20,5 +20,8 @@ def prime?(num)
     end
 
   end
+  if num == 0
+    return false
+  end
   return true
 end
