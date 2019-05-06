@@ -8,6 +8,7 @@ def prime?(num)
       count += 1
     end
   end
+  
   if count > 0
     return false
   else
