@@ -2,8 +2,7 @@
 
 def prime?(num)
 
-  if num >= 0
-
+  if num > 0
     (2..(num - 1)).each do |i|
       return false if num % i == 0
     end
@@ -13,6 +12,11 @@ def prime?(num)
       return false if num % i == 0
     end
   end
-  true
+
+  if num == 0
+    return false
+  end
+
+  return true
 
 end
